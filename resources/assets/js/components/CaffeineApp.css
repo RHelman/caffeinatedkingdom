@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Oswald:400,500,600,700|Roboto:400,500,700,700i);
+
+h2 {
+	padding: 0px;
+	color: #273746;
+	
+	font-family: 'Roboto', sans-serif;
+}
+
+button {
+	margin: 3px;
+	width: 150px;
+}
+
+select {
+	width: 75%;
+}
+
+
+.safe, .zero{
+	color: black;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.caffeinated{
+	color: green;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.warning{
+	color: orange;
+	font-weight: 700;
+	text-transform: capitalize;
+
+}
+
+.danger{
+	color: red;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.contentDiv {
+	padding-left: 15px;
+}
+
+.listItem {
+	font-weight: 600;
+	margin: 5px;
+	color: #EC7063;
+}
+
