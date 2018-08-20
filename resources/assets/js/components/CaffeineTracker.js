@@ -27,8 +27,8 @@ class CaffeineTracker extends Component {
 
   componentDidMount() {
 
-    $.ajax({
-    url: 'http://localhost:8000/api/drinks',
+    $.ajax({ 
+    url: 'http://www.caffeinatedkingdom.com/api/drinks',
     type: 'GET',
     data: {},
         success: function (data) {
@@ -51,7 +51,7 @@ class CaffeineTracker extends Component {
     });
 
     $.ajax({
-    url: 'http://localhost:8000/api/caffeineLevels/',
+    url: 'http://www.caffeinatedkingdom.com/api/caffeineLevels/',
     type: 'GET',
     data: {},
         success: function (data) {
